@@ -16,8 +16,11 @@ img {
   height: auto;
 }
 
-header {
+/*----------Стили для header----------*/
 
+header {
+  background-image: url(../images/header-bg.jpg);
+  height: 95vh;
 }
 
 .header-container {
@@ -28,6 +31,11 @@ header {
 
 .header-row {
   margin: 0 -15px;
+}
+
+.header-social .fa {
+  vertical-align: middle;
+  color: #ffaa91;
 }
 
 
