@@ -16,21 +16,43 @@ img {
   height: auto;
 }
 
+
+
 /*----------Стили для header----------*/
 
 header {
   background-image: url(../images/header-bg.jpg);
+  /* Центрирование изображения по вертикали и горизонтали всегда */
+  background-position: center center;
+
+  /* Запрещаем повтор изображения */
+  background-repeat: no-repeat;
+
+  /* Фиксируем изображение - оно остается на месте при прокрутке окна */
+  background-attachment: fixed;
+
+  /* Изображение будет масштабироваться в зависимости от размеров контейнера */
+  background-size: cover;
+
+  /* Цвет фона изображения, который будет показываться пока изображение не загрузится */
+  background-color: #464646;
+
   height: 95vh;
+
 }
 
-.header-container {
+.header-bar {
+  background-color: #1a1a20;
+}
+
+.header-bar__container {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-.header-row {
-  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-social .fa {
