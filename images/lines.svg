@@ -1,0 +1,40 @@
+<svg id="Группа_2" data-name="Группа 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="146.46" height="25" viewBox="0 0 146.46 25">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        filter: url(#filter-2);
+      }
+
+      .cls-3 {
+        filter: url(#filter-3);
+      }
+    </style>
+    <filter id="filter" x="2363.16" y="1021.81" width="96.53" height="4.72" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="2363.16" y="1021.81" width="96.53" height="4.72" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTYuNTMiIGhlaWdodD0iNC43MiIgdmlld0JveD0iMCAwIDk2LjUzIDQuNzIiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIG9wYWNpdHk6IDAuNzI7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIxNC41MTUiIHgyPSI4Mi4wMTUiIHkyPSI0LjcyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmNjg2NiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmQ3YWYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9Ijk2LjUzIiBoZWlnaHQ9IjQuNzIiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="2379" y="1032.09" width="107.34" height="4.47" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="2379" y="1032.09" width="107.34" height="4.47" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTA3LjM0IiBoZWlnaHQ9IjQuNDciIHZpZXdCb3g9IjAgMCAxMDcuMzQgNC40NyI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgb3BhY2l0eTogMC43MjsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjIxLjcwOCIgeDI9Ijg1LjYzMiIgeTI9IjQuNDciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmY2ODY2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZDdhZiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMTA3LjM0IiBoZWlnaHQ9IjQuNDciLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="2339.88" y="1042.34" width="130.65" height="4.47" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="2339.88" y="1042.34" width="130.65" height="4.47" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTMwLjY1IiBoZWlnaHQ9IjQuNDciIHZpZXdCb3g9IjAgMCAxMzAuNjUgNC40NyI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgb3BhY2l0eTogMC43MjsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjMzLjM2MyIgeDI9Ijk3LjI4NyIgeTI9IjQuNDciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmY2ODY2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZDdhZiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMTMwLjY1IiBoZWlnaHQ9IjQuNDciLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Прямоугольник_скругл._углы1002" data-name="Прямоугольник, скругл. углы1002" class="cls-1" d="M2365.49,1021.82l91.86,0.06a2.334,2.334,0,0,1,2.34,2.33h0a2.334,2.334,0,0,1-2.34,2.33l-91.85-.05a2.341,2.341,0,0,1-2.34-2.33h0A2.334,2.334,0,0,1,2365.49,1021.82Z" transform="translate(-2339.88 -1021.81)"/>
+  <path id="Прямоугольник_скругл._углы1002-2" data-name="Прямоугольник, скругл. углы1002" class="cls-2" d="M2381.19,1032.09l102.95,0.06a2.2,2.2,0,1,1,0,4.4l-102.94-.06A2.2,2.2,0,1,1,2381.19,1032.09Z" transform="translate(-2339.88 -1021.81)"/>
+  <path id="Прямоугольник_скругл._углы1002-3" data-name="Прямоугольник, скругл. углы1002" class="cls-3" d="M2342.09,1042.33l126.24,0.07a2.2,2.2,0,1,1,0,4.4l-126.24-.07A2.2,2.2,0,0,1,2342.09,1042.33Z" transform="translate(-2339.88 -1021.81)"/>
+</svg>
