@@ -307,9 +307,145 @@ header {
 
 .add {
   background: #1a1a20;
-  height: 1100px;
+  padding: 100px 15px;
 }
 
+.add__container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.add__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.add-box {
+  width: 45%;
+
+}
+
+.add-box_photo {
+  position: relative;
+}
+
+.add-box_photo::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: -70px;
+  width: 146px;
+  height: 25px;
+  background-image: url(../images/lines.png);
+}
+
+.add-box_info {
+  padding: 10px 0;
+}
+
+.add-box_info__name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffaa91;
+  margin:0;
+  margin-bottom: 10px;
+}
+
+.add-box_info__job {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #ffffff;
+  margin:0;
+  margin-bottom: 12px;
+}
+
+.add-box_info__desc {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #9f9fbd;
+  margin:0;
+  margin-bottom: 15px;
+}
+
+
+
+.add-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #1f1f25;
+  padding: 40px 30px;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.add-about__block {
+  width: 40%;
+  
+}
+
+.add-about__info {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.add-about__info:last-child {
+  margin-bottom: 0;
+}
+
+
+
+.add-about__info span {
+  color: #ffaa91;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.add-about:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  width: 1px;
+  background-color: #38384a;
+  transform: translate(-200%, -50%);
+}
+
+.add-social {
+
+}
+
+.add-social__title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9f9fbd;
+  margin-right: 15px;
+}
+
+.add-social .fa {
+  margin-right: 5px;
+  color: #9f9fbd;
+  transition: 0.2s;
+}
+
+.add-social .fa:hover {
+  color: #fff;
+}
 
 
 
