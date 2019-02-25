@@ -303,11 +303,14 @@ header {
 }
 
 
+/*----------Стили для секции Преимущества----------*/
 
-section {
-  background: grey;
-  height: 800px;
+.add {
+  background: #1a1a20;
+  height: 1100px;
 }
+
+
 
 
 
