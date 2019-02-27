@@ -447,6 +447,108 @@ header {
   color: #fff;
 }
 
+.why {
+  background-image: url('../images/why.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color:#1a1a20;
+  padding: 100px 0;
+}
+
+.why-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.why-text {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.why-text__title {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height:50px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.why-skills {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.why-skills::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background-color: #9f9fbd;
+  width: 100px;
+  height: 1px;
+  transform: translateX(-50%);
+}
+
+.why-skills__design,
+.why-skills__ux,
+.why-skills__develope {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height:50px;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.why-skills__ux {
+  margin: 0 30px;
+}
+
+.why-skills__ux::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 8px;
+  left: -17px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.why-skills__ux::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 8px;
+  right: -20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.why-text__desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+}
+
+
+
+
 
 
 
