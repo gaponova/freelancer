@@ -303,7 +303,7 @@ header {
 }
 
 
-/*----------Стили для секции Преимущества----------*/
+/*----------Стили для секции add Обо мне----------*/
 
 .add {
   background: #1a1a20;
@@ -447,14 +447,18 @@ header {
   color: #fff;
 }
 
+/*----------Стили для секции why Преимущества----------*/
+
 .why {
-  background-image: url('../images/why.jpg');
+  background: linear-gradient(to top, rgba(48, 55, 76, 0.4), rgba(26, 30, 41, 0.4)),
+  url('../images/why.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   background-color:#1a1a20;
   padding: 100px 0;
+  
 }
 
 .why-container {
@@ -560,12 +564,13 @@ header {
   background-color: rgba(26, 26, 32, 0.5);
   border: 1px solid #9f9fbd;
   padding: 40px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .why-box:hover  {
   background-color: rgba(26, 26, 32, 0.3);
   border: 1px solid #fff;
+  box-shadow: 0 20px 40px -20px rgba(0,0,0,0.5);
 }
 
 .why-box:hover .why-box__desc {
@@ -604,6 +609,8 @@ header {
   margin: 0 auto;
   transition: 0.5s;
 }
+
+/*----------Стили для секции skills Навыки----------*/
 
 
 
