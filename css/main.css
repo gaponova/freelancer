@@ -465,7 +465,7 @@ header {
 
 .why-text {
   max-width: 750px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   text-align: center;
 }
 
@@ -546,9 +546,64 @@ header {
   color: #fff;
 }
 
+.why-row {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.why-box {
+  width: calc(100%/12 * 4 - 30px);
+  margin: 15px;
+  text-align: center;
+  background-color: rgba(26, 26, 32, 0.5);
+  border: 1px solid #9f9fbd;
+  padding: 40px;
+  transition: 0.5s;
+}
 
+.why-box:hover  {
+  background-color: rgba(26, 26, 32, 0.3);
+  border: 1px solid #fff;
+}
 
+.why-box:hover .why-box__desc {
+  color: #fff;
+}
+
+.why-box__title {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #fff;
+  padding: 0  0 15px
+}
+
+.why-box__title::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background-color: #9f9fbd;
+  width: 50px;
+  height: 1px;
+  transform: translateX(-50%);
+}
+
+.why-box__desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #9f9fbd;
+  width: 80%;
+  margin: 0 auto;
+  transition: 0.5s;
+}
 
 
 
