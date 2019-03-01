@@ -478,7 +478,7 @@ header {
   font-family: 'Roboto', sans-serif;
   font-size: 46px;
   font-weight: 700;
-  line-height:50px;
+  line-height:65px;
   color: #fff;
   margin-bottom: 30px;
 }
@@ -693,11 +693,119 @@ header {
 }
 
 
+/*----------Стили для секции resume Резюме----------*/
 
+.resume {
+  background-color: #1c1c23;
+  padding: 100px 0;
+}
 
+.resume-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
+.resume-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+.resume-info__subtitle {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #ffaa91;
+}
 
+.resume-info__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.resume-row {
+  margin-bottom: 70px;;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: auto auto auto;
+  grid-gap: 30px;
+  grid-template-areas:
+                        "master   jandex"
+                        "master   client"
+                        "mail   client";
+}
+
+.resume-box {
+  /* width: calc(50% - 30px); */
+ 
+
+  background-color: #1a1a20;
+  padding: 30px 20px;
+}
+
+.resume-box_master {
+  grid-area: master;
+}
+
+.resume-box_mail {
+  grid-area: mail;
+}
+
+.resume-box_jandex {
+  grid-area: jandex;
+}
+
+.resume-box_client {
+  grid-area: client;
+}
+
+.resume-text {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #2b2b36;
+  margin-bottom: 20px;
+}
+
+.resume-text__title {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffaa91;
+  margin-bottom: 5px;
+}
+
+.resume-text__subtitle {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #fff;
+}
+
+.resume-box__desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #9f9fbd;
+}
+
+.resume-buttons {
+  text-align: center;
+}
+
+.btn-resume:hover {
+  background-color: #22222a;
+}
 
 
 
