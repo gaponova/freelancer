@@ -655,6 +655,7 @@ header {
 .skills-box {
   width: calc(50% - 30px);
   margin: 0 15px;
+  overflow: hidden;
 }
 
 .skills-cell {
