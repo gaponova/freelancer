@@ -612,6 +612,94 @@ header {
 
 /*----------Стили для секции skills Навыки----------*/
 
+.skills {
+  background-color: #1a1a20;
+  padding: 100px 0;
+}
+
+.skills-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.skills-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skills-info__subtitle {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #ffaa91;
+}
+
+.skills-info__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.skills-row {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-box {
+  width: calc(50% - 30px);
+  margin: 0 15px;
+}
+
+.skills-cell {
+  margin-bottom: 30px;
+}
+
+.skills-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.skills-text span {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.skills-progress {
+
+}
+
+.skills-progress__under {
+  width: 100%;
+  height: 6px;
+  background-color: #353542;
+}
+
+.skills-progress__above {
+  height: 6px;
+  background: linear-gradient(to right, #f59695, #f59695, #ffd7af);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
