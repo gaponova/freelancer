@@ -20,6 +20,8 @@
   <!-- style CSS
         ============================================ -->
   <link rel="stylesheet" href="css/animate.css" />
+  <link type="text/css" rel="stylesheet" href="css/lightslider.css" />   
+  <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />  
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -40,7 +42,7 @@
             <div class="header-navigation">
               <div class="menuToggle"><img src="images/menu-icon.png"></div>
               <nav class="main-nav">
-                <a class="main-nav__link active" href="#about">Обо мне</a>
+                <a class="main-nav__link nav-active" href="#about">Обо мне</a>
                 <a class="main-nav__link" href="#add">Преимущеcтва</a>
                 <a class="main-nav__link" href="#skills">Навыки</a>
                 <a class="main-nav__link" href="#resume">Резюме</a>
@@ -134,7 +136,7 @@
             <h3 class="why-box__title">Адаптивный дизайн</h3>
             <p class="why-box__desc">Создание дизайна для десктопных и мобильных устройств.</p>
           </div>
-          <div class="why-box wow fadeInUp" data-wow-delay="0.5s">
+          <div class="why-box why-box_main wow fadeInUp" data-wow-delay="0.5s">
             <img class="why-box__img" src="images/inno2.png" alt="Адаптивный дизайн">
             <h3 class="why-box__title">UI/UX инновации</h3>
             <p class="why-box__desc">Ваш сайт или приложение будут интуитивно понятными для пользователей.</p>
@@ -293,9 +295,31 @@
           <a href="#" class="btn btn-resume">Подробнее</a>
         </div>                                     
       </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-container">
+        <div class="portfolio-info">
+          <h3 class="portfolio-info__title">Портфолио</h3>
+        </div>
+        <div class="portfolio-row">
+            <ul id="imageGallery">
+                <li data-thumb="images/gallery.jpg" data-src="images/full-gallery.jpg">
+                  <img src="images/gallery.jpg" />
+                </li>
+                <li data-thumb="images/gan.jpg" data-src="images/full-gan.jpg">
+                  <img src="images/gan.jpg" />
+                </li>
+                <li data-thumb="images/search.jpg" data-src="images/full-search.jpg">
+                  <img src="images/search.jpg" />
+                </li>
+              </ul>
+              <div class="portfolio-buttons">
+                  <a href="#" class="btn btn-portfolio">Больше работ</a>
+                </div>
+        </div>                                       
+      </div>
       
     </section>
-    
   </div>
 
 
@@ -314,6 +338,11 @@
   <script>
     new WOW().init();
   </script>
+  <script src="js/lightslider.js"></script>
+  <script src="js/sliders.js"></script>
+  
+ <script src="js/lightgallery.js"></script>
+ <script src="js/gallery.js"></script>
 </body>
 
 </html>
