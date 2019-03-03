@@ -868,8 +868,85 @@ header {
   border: 1px solid #fff;
 }
 
-
 /*----------Стили для секции statistics Статистика----------*/
+
+.statistics {
+  background-image: url(../images/cup.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #1c1c23;
+  padding: 100px 0;
+}
+
+.statistics-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.statistics-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.statistics-box {
+  width: calc(100% / 12 * 3 - 30px);
+  margin: 0 15px;
+  text-align: center;
+  position: relative;
+}
+
+.statistics-box__title {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.statistics-box__desc {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  position: relative;
+}
+
+.statistics-box__desc::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.statistics-box:hover .statistics-box__desc::after {
+  width: 100%;
+}
+
+.statistics-box img {
+  margin-bottom: 20px;
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+.statistics-box:hover img {
+  transform: scale(0.93);
+  transition: 0.3s;
+}
+
+
+
+
 
 
 
