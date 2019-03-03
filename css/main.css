@@ -941,20 +941,20 @@ header {
   position: relative;
 }
 
-.statistics-box__desc::after {
+/* .statistics-box__desc::after {
   content: "";
   position: absolute;
   bottom: -25px;
   left: 0;
   width: 0;
   height: 1px;
-  background: #fff;
+  background: #ffaa91;
   transition: 0.5s;
 }
 
 .statistics-box:hover .statistics-box__desc::after {
   width: 100%;
-}
+} */
 
 .statistics-box img {
   margin-bottom: 20px;
@@ -987,6 +987,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 70px;
 }
 
 .services-text {
@@ -1081,6 +1082,213 @@ header {
   /* width: 50px; */
   height: 55px;
 }
+
+.services-buttons {
+  text-align: center;
+}
+
+.btn-services:hover {
+  background-color: #22222a;
+}
+
+
+
+
+
+/*----------Стили для секции contacts Контакты----------*/
+        
+.contacts {
+  background-color: #1a1a21;
+  /* background-image: radial-gradient(50em 50em, rgba(34, 47, 66, 0.4), rgba(28, 28, 35, 0.4)), url('../images/map.png'); */
+  background-image: radial-gradient(50em 50em, rgba(52, 56, 78, 0.4), rgba(25, 25, 33, 0.4)), url(../images/map.png);
+  padding: 100px 0;
+}
+
+.contacts-container {
+  max-width: 870px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.contacts-text {
+  max-width: 750px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.contacts-text__title {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 65px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.contacts-skills {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.contacts-skills::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background-color: #9f9fbd;
+  width: 100px;
+  height: 1px;
+  transform: translateX(-50%);
+}
+
+.contacts-skills__adress,
+.contacts-skills__mail,
+.contacts-skills__phone {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #ffaa91;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.contacts-skills__mail {
+  margin: 0 30px;
+}
+
+.contacts-skills__mail::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 8px;
+  left: -17px;
+  background-color: #ffaa91;
+  border-radius: 10px;
+}
+
+.contacts-skills__mail::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 8px;
+  right: -20px;
+  background-color: #ffaa91;
+  border-radius: 10px;
+}
+
+
+
+.contacts-row {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contacts-box {
+  margin: 0 15px;
+  width: calc(33% - 30px);
+  background-color: #19191f;
+  padding: 30px 20px 20px;
+  position: relative;
+}
+
+.contacts-title {
+  display: flex;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.contacts-title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -9px;
+  left: -1px;
+  width: 35px;
+  height: 33px;
+  background-color: #2b2b36;
+  border-radius: 5px;
+}
+
+.contacts-title img {
+  height: 17px;
+  margin-right: 20px;
+  margin-left: 5px;
+  z-index: 2;
+}
+
+.contacts-title span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.contacts-info {
+  position: relative;
+}
+
+.contacts-box_adress::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 23px;
+  right: 17px;
+  width: 40px;
+  height: 35px;
+  background-image: url(../images/home-dark.svg);
+  background-repeat: no-repeat;
+}
+
+.contacts-box_mail::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 23px;
+  right: 17px;
+  width: 40px;
+  height: 35px;
+  background-image: url(../images/envelope-dark.svg);
+  background-repeat: no-repeat;
+}
+
+.contacts-box_phone::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 23px;
+  right: 17px;
+  width: 40px;
+  height: 35px;
+  background-image: url(../images/call-dark.svg);
+  background-repeat: no-repeat;
+}
+
+.contacts-info span {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #9f9fbd;
+}
+
+
+
+
+
 
 
 
