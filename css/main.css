@@ -412,8 +412,6 @@ header {
   transform: translate(-200%, -50%);
 }
 
-.add-social {}
-
 .add-social__title {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -426,6 +424,7 @@ header {
   margin-right: 5px;
   color: #9f9fbd;
   transition: 0.2s;
+  padding: 5px;
 }
 
 .add-social .fa:hover {
@@ -544,8 +543,8 @@ header {
   width: calc(100%/12 * 4 - 30px);
   margin: 15px;
   text-align: center;
-  background-color: rgba(26, 26, 32, 0.5);
-  border: 1px solid #9f9fbd;
+  background-color: rgba(26, 26, 32, 0.7);
+  border: 1px solid #1a1a20;
   padding: 40px;
   transition: 0.3s;
 }
@@ -561,6 +560,7 @@ header {
 }
 
 .why-box_main {
+  background-color: rgba(26, 26, 32, 0.4);
   border: 1px solid #fff;
 }
 
@@ -980,8 +980,6 @@ header {
   padding: 0 15px;
 }
 
-
-
 .services-row {
   margin: 0 -15px;
   display: flex;
@@ -1053,8 +1051,6 @@ header {
   text-transform: uppercase;
 }
 
-
-
 .services-box__title::after {
   content: "";
   position: absolute;
@@ -1065,8 +1061,6 @@ header {
   background: #9f9fbd;
   margin-left: -50px;
 }
-
-
 
 .services-box__desc {
   font-family: "Roboto", sans-serif;
@@ -1091,12 +1085,8 @@ header {
   background-color: #22222a;
 }
 
-
-
-
-
 /*----------Стили для секции contacts Контакты----------*/
-        
+
 .contacts {
   background-color: #1a1a21;
   /* background-image: radial-gradient(50em 50em, rgba(34, 47, 66, 0.4), rgba(28, 28, 35, 0.4)), url('../images/map.png'); */
@@ -1184,8 +1174,6 @@ header {
   background-color: #ffaa91;
   border-radius: 10px;
 }
-
-
 
 .contacts-row {
   margin: 0 -15px;
@@ -1289,7 +1277,6 @@ header {
 .contacts-fields {
   background-color: #19191f;
   padding: 30px;
-  
 }
 
 .contacts-form__top {
@@ -1307,7 +1294,6 @@ header {
 .contacts-form__name {
   border: 0;
   outline: 0;
-  
   width: calc(50% - 20px);
   background-color: #1e1e26;
   padding: 20px;
@@ -1318,7 +1304,6 @@ header {
 .contacts-form__email {
   border: 0;
   outline: 0;
-  
   width: calc(50% - 20px);
   background-color: #1e1e26;
   padding: 20px;
@@ -1343,29 +1328,28 @@ header {
 }
 
 ::-webkit-input-placeholder {
-    color: #58586b;
-    opacity: 1;
- }
-:-moz-placeholder { 
-    color: #58586b;
-    opacity: 1;
- }
-::-moz-placeholder { 
-    color: #58586b;
-    opacity: 1;
- }
-:-ms-input-placeholder {
-    color: #58586b;
-    opacity: 1;
+  color: #58586b;
+  opacity: 1;
 }
 
+:-moz-placeholder {
+  color: #58586b;
+  opacity: 1;
+}
 
+::-moz-placeholder {
+  color: #58586b;
+  opacity: 1;
+}
 
+:-ms-input-placeholder {
+  color: #58586b;
+  opacity: 1;
+}
 
 .contacts-form__btn {
   border: 0;
   outline: 0;
-  
   width: 100%;
   height: 55px;
   font-family: 'Roboto', sans-serif;
@@ -1381,14 +1365,10 @@ header {
   transition: 0.3s;
 }
 
-
-
 .contacts-form__btn:hover {
   background: none;
   border: 1px solid #fff;
 }
-
-
 
 /*----------Кнопка TOP----------*/
 
