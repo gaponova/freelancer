@@ -1090,7 +1090,7 @@ header {
 .contacts {
   background-color: #1a1a21;
   /* background-image: radial-gradient(50em 50em, rgba(34, 47, 66, 0.4), rgba(28, 28, 35, 0.4)), url('../images/map.png'); */
-  background-image: radial-gradient(50em 50em, rgba(52, 56, 78, 0.4), rgba(25, 25, 33, 0.4)), url(../images/map.png);
+  background-image: radial-gradient(50em 50em, rgba(52, 56, 78, 0.3), rgba(25, 25, 33, 0.3)), url(../images/map.png);
   padding: 100px 0;
 }
 
@@ -1301,6 +1301,11 @@ header {
   margin: 0 10px;
 }
 
+.contacts-form__name:focus {
+  outline: 1px solid rgba(159, 159, 189, 0.3);
+  ;
+}
+
 .contacts-form__email {
   border: 0;
   outline: 0;
@@ -1309,6 +1314,11 @@ header {
   padding: 20px;
   color: #9f9fbd;
   margin: 0 10px;
+}
+
+.contacts-form__email:focus {
+  outline: 1px solid rgba(159, 159, 189, 0.3);
+  ;
 }
 
 .contacts-form__message {
@@ -1325,6 +1335,11 @@ header {
   font-weight: 300;
   line-height: 24px;
   color: #9f9fbd;
+}
+
+.contacts-form__message:focus {
+  outline: 1px solid rgba(159, 159, 189, 0.3);
+  ;
 }
 
 ::-webkit-input-placeholder {
@@ -1408,7 +1423,6 @@ footer {
 
 .footer-social {
   margin-left: 15px;
-  
 }
 
 .footer-social .fa {
@@ -1439,14 +1453,6 @@ footer {
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
 /*----------Кнопка TOP----------*/
 
 #toTop {
@@ -1475,8 +1481,8 @@ footer {
 .menuToggle {
   display: none;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 22px;
+  right: 15px;
   cursor: pointer;
 }
 
@@ -1493,7 +1499,11 @@ footer {
 
 @media screen and (max-width: 960px) {
   .header-bar__container {
-    justify-content: space-around;
+    display: block;
+    text-align: center;
+  }
+  .header-social {
+    display: none;
   }
   .main-nav {
     display: none;
@@ -1524,5 +1534,46 @@ footer {
   .main-nav__link::after,
   .active::after {
     display: none;
+  }
+  .add__row {
+    align-items: center;
+  }
+  .add-box_photo::before {
+    left: -30px;
+    width: 100px;
+  }
+  .add-about {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .add-box_photo {
+    display: none;
+  }
+  .add-box_photo::before {
+    display: none;
+  }
+  .add-box {
+    width: 100%;
+  }
+  .why-box {
+    width: 100%;
+  }
+  .why-box_main {
+    background-color: rgba(26, 26, 32, 0.7);
+    border: 1px solid #1a1a20;
+  }
+  .why-box_main:hover {
+    background-color: rgba(26, 26, 32, 0.3);
+    border: 1px solid #fff;
+    box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.5);
+  }
+  .statistics-box {
+    width: calc(100% / 12 * 6 - 30px);
+    margin-bottom: 50px;
+  }
+  .services-box {
+    width: calc(100%/12 * 6 - 30px);
   }
 }
