@@ -1579,6 +1579,11 @@ footer {
     border: 1px solid #fff;
     box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.5);
   }
+
+  .portfolio-buttons {
+    text-align: center;
+}
+
   .statistics-box {
     width: calc(100% / 12 * 6 - 30px);
     margin-bottom: 50px;
@@ -1586,4 +1591,118 @@ footer {
   .services-box {
     width: calc(100%/12 * 6 - 30px);
   }
+  .contacts-row {
+    justify-content: center;
+  }
+  .contacts-box {
+    width: calc(50% - 30px);
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .hi {
+   
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hi {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  
+  .hi__hello {
+    display: none;
+  }
+  .hi__name {
+    line-height: 45px;
+    font-size: 45px;
+  }
+  .hi__desc {
+    font-size: 36px;
+  }
+  .hi-skills {
+    width: 100%;
+    text-align: center;
+  }
+
+  .add-social__title {
+   
+    display: block;
+    margin-bottom: 10px;
+}
+
+.why-text__title {
+  
+  font-size: 28px;
+ 
+  line-height: 44px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+  .skills-box {
+    width: calc(100% - 30px);
+    
+}
+
+  .resume-row {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .resume-row {
+    grid-template-areas: "master" "mail" "client" "jandex ";
+  }
+  .btn-color {
+    margin-bottom: 15px;
+  }
+
+  .lSAction a {
+    display: none;
+  }
+
+  .services-box {
+    width: calc(100% - 30px);
+  }
+  .contacts-box {
+    width: calc(100% - 30px);
+    margin-bottom: 30px;
+  }
+  .contacts-form__email,
+  .contacts-form__name {
+    width: 100%;
+  }
+  .contacts-form__name {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hi {
+   
+    padding-top: 80px;
+  }
+
+  .add,
+  .why,
+  .skills,
+  .resume,
+  .portfolio,
+  .statistics,
+  .services,
+  .contacts {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .footer-top {
+    margin-bottom: 10px;
+  
+  }
+
+  .footer-logo__name {
+   
+    margin-bottom: 10px;
 }

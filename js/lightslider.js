@@ -35,7 +35,7 @@
         thumbMargin: 5,
         currentPagerPosition: 'middle',
         enableTouch: true,
-        enableDrag: false,
+        enableDrag: true,
         freeMove: true,
         swipeThreshold: 40,
         responsive: [],

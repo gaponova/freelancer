@@ -10,6 +10,6 @@ $("#lightSlider").lightSlider({
   auto: true,
   loop: true,
   keyPress: true,
-  enableDrag: false,
+  enableDrag: true,
   freeMove: true
 });
