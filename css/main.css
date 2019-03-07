@@ -249,6 +249,7 @@ header {
   color: #fff;
   border: 1px solid #fff;
   margin: 0 15px;
+  cursor: pointer;
   transition: 0.5s;
 }
 
@@ -272,6 +273,7 @@ header {
   border: none;
   background: linear-gradient(to right, #ff6866, #ff6866, #ffd7af);
   margin: 0 15px;
+  cursor: pointer;
   transition: background 1s;
 }
 
@@ -1189,6 +1191,7 @@ header {
   background-color: #19191f;
   padding: 30px 20px 20px;
   position: relative;
+  transition: 0.3s;
 }
 
 .contacts-title {
@@ -1272,6 +1275,12 @@ header {
   line-height: 20px;
   text-transform: uppercase;
   color: #9f9fbd;
+  transition: 0.3s;
+}
+
+.contacts-box:hover .contacts-info span {
+  color: #fff;
+  transition: 0.3s;
 }
 
 .contacts-fields {
@@ -1377,6 +1386,7 @@ header {
   color: #fff;
   background: #ff6866;
   border: 1px solid #ff6866;
+  cursor: pointer;
   transition: 0.3s;
 }
 
