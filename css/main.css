@@ -35,7 +35,6 @@ header {
 
 .header-bar {
   background-color: rgba(26, 26, 32, 0.9);
-  ;
   position: fixed;
   left: 0;
   right: 0;
@@ -1497,6 +1496,12 @@ footer {
 }
 
 /*----------Адаптивная разметка----------*/
+
+@media only screen and (min-width: 961px){
+  .main-nav{
+    display: block !important;
+  }
+}
 
 @media screen and (max-width: 1320px) {
   .lSAction>.lSNext {
