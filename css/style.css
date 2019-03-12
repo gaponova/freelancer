@@ -35,8 +35,7 @@ header {
 }
 
 .header-bar {
-  background-color: rgba(26, 26, 32, 0.9);
-  ;
+  background-color: rgba(26, 26, 32, 1);
   position: fixed;
   left: 0;
   right: 0;
